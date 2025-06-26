@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjali Dogra | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background-color: #0d0d0d;
+    }
+    .nav-link {
+      color: #ffffff !important;
+    }
+    .nav-link:hover {
+      color: #00ffd5 !important;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 100px 20px 60px;
+      background-color: #0d0d0d;
+      text-align: left;
+    }
+    .hero img {
+      border-radius: 10px;
+      max-width: 300px;
+      margin: 20px;
+    }
+    .hero-text {
+      max-width: 600px;
+      margin: 20px;
+    }
+    .hero-text h5 {
+      color: #00ffd5;
+      letter-spacing: 1px;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+    .hero-text h1 span {
+      color: #00ffd5;
+    }
+    .hero-text p {
+      color: #cccccc;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+    .hero-text .btn {
+      background-color: transparent;
+      border: 2px solid #00ffd5;
+      color: #00ffd5;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .hero-text .btn:hover {
+      background-color: #00ffd5;
+      color: #000;
+    }
+    .section-title {
+      font-weight: 600;
+      color: #00ffd5;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .custom-section {
+      background: #1a1a1a;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+      margin: 40px auto;
+    }
+    .project-card {
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+      border: none;
+      border-radius: 15px;
+      background-color: #1f1f1f;
+      color: #ffffff;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card h5,
+    .project-card p {
+      color: #ffffff;
+    }
+    .project-card .btn {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    a {
+      color: #00ffd5;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Anjali Dogra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <img src="profile pic.jpg" alt="Anjali Dogra">
+    <div class="hero-text">
+      <h5>PORTFOLIO</h5>
+      <h1>I'm a <span>Data Analyst</span> & <span>Full Stack Developer</span></h1>
+      <p>I’m Anjali Dogra, currently pursuing BSc Programming & Data Science from IIT Madras Online. Passionate about solving real-world problems using data and building scalable apps with modern web technologies.</p>
+      <a href="https://drive.google.com/file/d/1TVuf_VES39_IQ_P2mOiKmbPpmGaL4qhH/view?usp=sharing" class="btn" target="_blank">Download CV</a>
+    </div>
+  </section>
+
+  <section class="container custom-section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I’m Anjali Dogra, currently pursuing a BSc in Programming and Data Science from the Indian Institute of Technology, Madras through their online/distance learning degree program. I am passionate about uncovering insights from data and building full stack web applications. I enjoy solving real-world problems using data and technology. I’m actively exploring opportunities in Data Science and Software Development.</p>
+  </section>
+
+  <section class="container custom-section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="text-info">Data Analyst Skills</h5>
+        <ul>
+          <li>Data Cleaning, EDA, Dashboards</li>
+          <li>Power BI, Tableau, Matplotlib, Seaborn</li>
+          <li>Python (Pandas, NumPy)</li>
+          <li>SQL (SQLite, MySQL), Excel</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h5 class="text-info">Full Stack Developer Skills</h5>
+        <ul>
+          <li>HTML, CSS, JavaScript, Vue.js, Bootstrap</li>
+          <li>Flask (Python)</li>
+          <li>MySQL, SQLite</li>
+          <li>Git, GitHub, GitHub Pages</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container custom-section" id="education">
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li><strong>B.Sc. in Programming and Data Science</strong>, IIT Madras (Online Degree), 2022 – Present</li>
+      <li><strong>Senior Secondary</strong>, Sarvodaya Kanya Vidyalaya, Delhi, 2022</li>
+    </ul>
+  </section>
+
+  <section class="container custom-section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card project-card p-4">
+          <h5>Household Services Web App</h5>
+          <p>Multi-user platform for service bookings with authentication, admin dashboard, and search features.</p>
+          <a href="https://github.com/anjalidogra01/Household-Services" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          <a href="household-services.html" class="btn btn-outline-light btn-sm" target="_blank">Summary</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card project-card p-4">
+          <h5>Quiz Master (In Progress)</h5>
+          <p>Role-based quiz app with dynamic quizzes, Redis caching, Celery jobs, and token-based login.</p>
+          <a href="https://github.com/anjalidogra01/quiz-master-v2" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          <a href="#" class="btn btn-outline-light btn-sm disabled">Summary</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card project-card p-4">
+          <h5>Tata Data Visualisation</h5>
+          <p>Simulated client project analyzing customers, revenue, and business trends via data visuals.</p>
+          <a href="https://github.com/anjalidogra01/business-insights-tcs" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          <a href="#" class="btn btn-outline-light btn-sm disabled">Summary</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card project-card p-4">
+          <h5>Google Play Store Data Analysis</h5>
+          <p>Performed EDA to uncover top-rated apps and visualized results using Python libraries.</p>
+          <a href="https://github.com/anjalidogra01/google_playstore_app" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          <a href="#" class="btn btn-outline-light btn-sm disabled">Summary</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card project-card p-4">
+          <h5>T20 World Cup 2022 Analysis</h5>
+          <p>Built best playing XI from tournament data and created a Power BI dashboard for visualization.</p>
+          <a href="https://github.com/anjalidogra01/t20_wc-2022" class="btn btn-outline-info btn-sm" target="_blank">GitHub</a>
+          <a href="#" class="btn btn-outline-light btn-sm disabled">Summary</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="container custom-section" id="certificates">
+  <h2 class="section-title">Certificates</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card project-card p-3">
+        <img src="images/certificates/diploma in data science.jpeg" class="img-fluid rounded mb-3" style="height: 350px; object-fit: cover; width: 100%;" alt="Diploma in Data Science">
+        <h5>Diploma in Data Science</h5>
+        <p>Issued by IIT Madras</p>
+        <a href="https://drive.google.com/file/d/1MFlyWYprPS6nEwiRMV_sUQKcwPlqTk8B/view?usp=sharing" class="btn btn-outline-info btn-sm" target="_blank">View Certificate</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card project-card p-3">
+        <img src="images/certificates/foundation level.jpg" class="img-fluid rounded mb-3" style="height: 350px; object-fit: cover; width: 100%;" alt="Foundation Certificate">
+        <h5>Foundation in Programming and Data Science</h5>
+        <p>Issued by IIT Madras</p>
+        <a href="https://drive.google.com/file/d/1vEOn6P8XSmKuvufrPdSVIdkvO0MuzPHm/view?usp=sharing" class="btn btn-outline-info btn-sm" target="_blank">View Certificate</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card project-card p-3">
+        <img src="images/certificates/tcs.jpeg" class="img-fluid rounded mb-3" style="height: 350px; object-fit: cover; width: 100%;" alt="Tata Data Visualisation">
+        <h5>Tata Data Visualisation</h5>
+        <p>Issued by Forage (Virtual Experience)</p>
+        <a href="https://drive.google.com/file/d/1QsW38Vbw4z-9_9-Bgqq2dXfWi9kCbwd-/view?usp=sharing" class="btn btn-outline-info btn-sm" target="_blank">View Certificate</a>
+      </div>
+    </div>
+  </div>
+  
+  </section>
+
+  <section class="container custom-section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:anjalidogra1806@gmail.com">anjalidogra1806@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/anjalidogra01" target="_blank">github.com/anjalidogra01</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/anjali-dogra-350bb1252/" target="_blank">linkedin.com/in/anjali-dogra</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Anjali Dogra. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
